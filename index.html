@@ -1,41 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="src/img/icons/instagram-icon.svg" />
     <title>Instagram</title>
-</head>
-<body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="content-slider-app">
+          <img src="src/img/celular-slider.png" alt="" />
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="src/img/sliders/01.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="src/img/sliders/02.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="src/img/sliders/03.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="src/img/sliders/04.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
-                </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
+        <div class="content-login">
+          <div class="box-login">
+            <img class="logo" src="src/img/icons/instagram-logo.png" />
+            <img class="img-perfil" src="src/img/img-perfil.jpg" />
+            <a class="btn-access" href="#"><span>Continuar como <span class="name_user">lgustavs_</span><span></span></a>
+            <p class="info-access">Não é <span class="name_user">lgustavs_</span>? <a href="#"> Trocar de conta </a></p>
+          </div>
+          <div class="box-download-area">
+            <span>Obtenha o aplicativo</span>
+            <div class="options-download">
+              <div class="btn-download">
+                <a href=""><img src="src/img/buttons/apple.png" alt="" /></a>
+              </div>
+              <div class="btn-download">
+                <a href=""><img src="src/img/buttons/googleplay.png" alt="" /></a>
+              </div>
             </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
-                </div>
-            </div>
+          </div>
         </div>
-    </div>
-</body>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
 </html>

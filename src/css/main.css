@@ -1,0 +1,139 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content-slider-app {
+  position: relative;
+}
+
+.container .content-slider-app .swiper {
+  position: absolute;
+  top: 2.5rem;
+  right: 5.9rem;
+  width: 25rem;
+}
+
+.container .content-login {
+  height: auto;
+  width: 100%;
+  max-width: 35rem;
+}
+
+.container .content-login .box-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 4.5rem;
+  border: 1px solid lightgray;
+  width: 100%;
+}
+
+.container .content-login .logo {
+  margin-bottom: 2.5rem;
+}
+
+.container .content-login .img-perfil {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.container .content-login .btn-access {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  background-color: #0095f6;
+  border-radius: 0.32rem;
+  transition: background-color 0.3s;
+}
+
+.container .content-login .btn-access:hover {
+  background-color: #20a4fc;
+}
+
+.container .content-login .btn-access span {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.container .content-login .info-access {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.container .content-login .info-access a {
+  font-weight: 600;
+  color: #0095f6;
+}
+
+.container .content-login .info-access a:hover {
+  color: #20a4fc;
+}
+
+.container .content-login .box-download-area {
+  margin-top: 1.8rem;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container .content-login .box-download-area span {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  display: block;
+  color: #262626;
+}
+
+.container .content-login .box-download-area .options-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .content-login .box-download-area .options-download .btn-download {
+  width: 100%;
+  max-width: 13.6rem;
+  height: 4rem;
+  transition: all 0.3s;
+}
+
+.container
+  .content-login
+  .box-download-area
+  .options-download
+  .btn-download:hover {
+  transform: scale(1.02);
+}
+
+.container
+  .content-login
+  .box-download-area
+  .options-download
+  .btn-download:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.container
+  .content-login
+  .box-download-area
+  .options-download
+  .btn-download
+  img {
+  display: block;
+  width: 100%;
+}
